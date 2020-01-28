@@ -1,23 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "af4e006895ae169374f4",
-    "url": "/asishshajithomas/static/js/app.65c5bb80.chunk.js"
+    "revision": "cf52b86581c4d19a2be6",
+    "url": "/asishshajithomas/static/js/app.80a9f9f2.chunk.js"
   },
   {
     "revision": "f929b1af5c8f75b1dc9a",
     "url": "/asishshajithomas/static/js/runtime~app.b14ec05e.js"
   },
   {
-    "revision": "64be2bf3b1f55860325f",
-    "url": "/asishshajithomas/static/js/2.535dff3e.chunk.js"
+    "revision": "4269230ec58d46b27e40",
+    "url": "/asishshajithomas/static/js/2.c57ba82b.chunk.js"
   },
   {
-    "revision": "b2e0fc821c6886fb3940f85a3320003e",
-    "url": "/asishshajithomas/./fonts/Ionicons.ttf"
+    "revision": "c0e838a8187c703f3bd302a98e30cf35",
+    "url": "/asishshajithomas/static/media/bg.c0e838a8.jpg"
   },
   {
     "revision": "a19a7b108b2e3961fc855c6ea5a6546f",
     "url": "/asishshajithomas/./fonts/ProductSans-Bold.ttf"
+  },
+  {
+    "revision": "9c51beb79b8ab173abd924ce39178f0b",
+    "url": "/asishshajithomas/./fonts/ProductSans-Medium.ttf"
+  },
+  {
+    "revision": "991dc7233edf64b2901ed282fbc4652d",
+    "url": "/asishshajithomas/static/media/profile.991dc723.jpg"
+  },
+  {
+    "revision": "b2e0fc821c6886fb3940f85a3320003e",
+    "url": "/asishshajithomas/./fonts/Ionicons.ttf"
   },
   {
     "revision": "3a2ba31570920eeb9b1d217cabe58315",
@@ -136,12 +148,12 @@ self.__precacheManifest = [
     "url": "/asishshajithomas/apple/splash/icon_828x1792.png"
   },
   {
-    "revision": "872596405b8d48f4f123e0763073263a",
+    "revision": "6f24c32168318a8812908553c8cc28dc",
     "url": "/asishshajithomas/index.html"
   },
   {
-    "revision": "ee402988d2f99b56c9181ab629e1d81b",
-    "url": "/asishshajithomas/static/js/app.65c5bb80.chunk.js.gz"
+    "revision": "5dbdf278807d0d68c2d96e3bdda2e1fe",
+    "url": "/asishshajithomas/static/js/app.80a9f9f2.chunk.js.gz"
   },
   {
     "revision": "8ce9cfa68e612c2f32b432ba1eb65a08",
@@ -152,7 +164,7 @@ self.__precacheManifest = [
     "url": "/asishshajithomas/expo-service-worker.js.gz"
   },
   {
-    "revision": "b073a315c52114159ab99db91efaa0fd",
-    "url": "/asishshajithomas/static/js/2.535dff3e.chunk.js.gz"
+    "revision": "3b378369295b41ae8dafb0e721b58ebb",
+    "url": "/asishshajithomas/static/js/2.c57ba82b.chunk.js.gz"
   }
 ];
