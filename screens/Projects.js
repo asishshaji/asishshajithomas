@@ -9,6 +9,9 @@ import {
 } from "react-native";
 import React, { Component } from "react";
 
+import Card from '../components/ProjectCard'
+import { Ionicons } from '@expo/vector-icons';
+
 class Projects extends Component {
 
     static navigationOptions = {
@@ -16,12 +19,13 @@ class Projects extends Component {
     }
     componentDidMount() {
         Font.loadAsync({
-            'bold': require('../assets/fonts/ProductSans-Bold.ttf'),
+            'bold': require('../assets/fonts/ProductSans-Black.ttf'),
             'medium': require('../assets/fonts/ProductSans-Medium.ttf')
         });
     }
 
     render() {
+        const navigate = this.props.navigation
         return (
             <ImageBackground
                 style={{ flex: 1, backgroundColor: '#000' }}
@@ -30,44 +34,21 @@ class Projects extends Component {
                 source={{
                     uri:
                         require('../assets/images/bg.jpg')
-                }}>
+                }}
+
+            >
 
                 <View style={styles.container}>
                     <View style={styles.titleContainer}>
+                        <Ionicons name="ios-arrow-back" size={32} color="white" onPress={() => navigate.goBack()} style={{ position: 'absolute', bottom: 10, left: 20, zIndex: 100000000 }} />
                         <Text style={styles.projectHeader}>PROJECTS</Text>
                     </View>
-                    <View style={{ marginTop: 130, flex: 1 }}>
+                    <View style={{ marginTop: 130, flex: 1, alignSelf: 'center', padding: 20 }}>
 
-                        <View style={{ borderRadius: 20, marginLeft: 10 }}>
-                            <ImageBackground style={{
-                                height: 300, width: 300,
-                                backgroundColor: '#000',
-                                borderRadius: 20, position: 'relative'
-                            }}
-                                imageStyle={{
-                                    borderRadius: 20
-                                }}
-                                blurRadius={20}
-                                resizeMode="cover"
-                                // blurRadius={20}
-                                source={{
-                                    uri:
-                                        require('../assets/images/profile.jpg')
-                                }}>
-                                <Image
-                                    style={{ height: 250, width: 250, position: 'absolute', top: -100, left: 25, right: 25, borderRadius: 20 }}
-                                    source={{
-                                        uri:
-                                            require('../assets/images/bg.jpg')
-                                    }} />
+                        <Card />
+                        <Card />
 
-                                <Text style={{
-                                    fontFamily: 'medium', fontSize: 26,
-                                    color: 'white', position: 'absolute', bottom: 20, textAlign: 'center', left:10,right:10
-                                }}>DYUSKSHA 20 ANDROID APP</Text>
 
-                            </ImageBackground>
-                        </View>
 
                     </View>
 
@@ -81,15 +62,17 @@ export default Projects;
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+
     },
     projectHeader: {
         fontFamily: 'bold',
         color: 'white',
         fontSize: 40,
-        textAlign: 'center'
+        textAlign: 'center',
     },
     titleContainer: {
-        marginTop: 30
+        marginTop: 30,
+        position: 'relative'
     }
 
 });
