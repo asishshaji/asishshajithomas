@@ -6,7 +6,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "predeploy": "expo build:web",
+    "deploy": "gh-pages -d web-build"
   },
   "jest": {
     "preset": "jest-expo"
@@ -37,5 +39,6 @@
     "babel-preset-expo": "~8.0.0",
     "jest-expo": "~36.0.1"
   },
-  "private": true
+  "private": true,
+  "homepage": "http://asishshaji.github.io/asishshajithomas"
 }
