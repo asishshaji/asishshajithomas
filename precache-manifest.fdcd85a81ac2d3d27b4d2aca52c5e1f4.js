@@ -1,43 +1,47 @@
 self.__precacheManifest = [
   {
-    "revision": "cf52b86581c4d19a2be6",
-    "url": "/asishshajithomas/static/js/app.80a9f9f2.chunk.js"
+    "revision": "c9b95cb2d0b846a24d4e",
+    "url": "/asishshajithomas/static/js/app.ebf609a5.chunk.js"
   },
   {
     "revision": "f929b1af5c8f75b1dc9a",
     "url": "/asishshajithomas/static/js/runtime~app.b14ec05e.js"
   },
   {
-    "revision": "4269230ec58d46b27e40",
-    "url": "/asishshajithomas/static/js/2.c57ba82b.chunk.js"
+    "revision": "0e7617b65830e9bdffe4",
+    "url": "/asishshajithomas/static/js/2.10f231c0.chunk.js"
   },
   {
     "revision": "c0e838a8187c703f3bd302a98e30cf35",
     "url": "/asishshajithomas/static/media/bg.c0e838a8.jpg"
   },
   {
-    "revision": "a19a7b108b2e3961fc855c6ea5a6546f",
-    "url": "/asishshajithomas/./fonts/ProductSans-Bold.ttf"
-  },
-  {
     "revision": "9c51beb79b8ab173abd924ce39178f0b",
     "url": "/asishshajithomas/./fonts/ProductSans-Medium.ttf"
-  },
-  {
-    "revision": "991dc7233edf64b2901ed282fbc4652d",
-    "url": "/asishshajithomas/static/media/profile.991dc723.jpg"
   },
   {
     "revision": "b2e0fc821c6886fb3940f85a3320003e",
     "url": "/asishshajithomas/./fonts/Ionicons.ttf"
   },
   {
-    "revision": "3a2ba31570920eeb9b1d217cabe58315",
-    "url": "/asishshajithomas/./fonts/AntDesign.ttf"
-  },
-  {
     "revision": "744ce60078c17d86006dd0edabcd59a7",
     "url": "/asishshajithomas/./fonts/Entypo.ttf"
+  },
+  {
+    "revision": "a19a7b108b2e3961fc855c6ea5a6546f",
+    "url": "/asishshajithomas/./fonts/ProductSans-Bold.ttf"
+  },
+  {
+    "revision": "991dc7233edf64b2901ed282fbc4652d",
+    "url": "/asishshajithomas/static/media/profile.991dc723.jpg"
+  },
+  {
+    "revision": "909eeb19f58cc8c0bc45422f2745cc8a",
+    "url": "/asishshajithomas/./fonts/ProductSans-Black.ttf"
+  },
+  {
+    "revision": "3a2ba31570920eeb9b1d217cabe58315",
+    "url": "/asishshajithomas/./fonts/AntDesign.ttf"
   },
   {
     "revision": "6beba7e6834963f7f171d3bdd075c915",
@@ -72,12 +76,12 @@ self.__precacheManifest = [
     "url": "/asishshajithomas/./fonts/SimpleLineIcons.ttf"
   },
   {
-    "revision": "d0c694b562b2208635f250762cd7fc79",
-    "url": "/asishshajithomas/serve.json"
-  },
-  {
     "revision": "7a7bc7ead25db795e58b336f04d2624c",
     "url": "/asishshajithomas/favicon.ico"
+  },
+  {
+    "revision": "d0c694b562b2208635f250762cd7fc79",
+    "url": "/asishshajithomas/serve.json"
   },
   {
     "revision": "48c7ed4e7da9792af288a60d7242d615",
@@ -148,23 +152,23 @@ self.__precacheManifest = [
     "url": "/asishshajithomas/apple/splash/icon_828x1792.png"
   },
   {
-    "revision": "6f24c32168318a8812908553c8cc28dc",
+    "revision": "77694a528dd181d473cd05ca7f367126",
     "url": "/asishshajithomas/index.html"
-  },
-  {
-    "revision": "5dbdf278807d0d68c2d96e3bdda2e1fe",
-    "url": "/asishshajithomas/static/js/app.80a9f9f2.chunk.js.gz"
   },
   {
     "revision": "8ce9cfa68e612c2f32b432ba1eb65a08",
     "url": "/asishshajithomas/static/js/runtime~app.b14ec05e.js.gz"
   },
   {
+    "revision": "5b55b657a432389732c0f4b4bb286617",
+    "url": "/asishshajithomas/static/js/app.ebf609a5.chunk.js.gz"
+  },
+  {
     "revision": "d5c897f0f97f669b9e417ea3d269865f",
     "url": "/asishshajithomas/expo-service-worker.js.gz"
   },
   {
-    "revision": "3b378369295b41ae8dafb0e721b58ebb",
-    "url": "/asishshajithomas/static/js/2.c57ba82b.chunk.js.gz"
+    "revision": "e2cfc2e2b1e78b750bf759abcaf56f63",
+    "url": "/asishshajithomas/static/js/2.10f231c0.chunk.js.gz"
   }
 ];
