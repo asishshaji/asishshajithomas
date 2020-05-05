@@ -3,6 +3,7 @@ import * as Font from 'expo-font';
 import {
     Image,
     ImageBackground,
+    ScrollView,
     StyleSheet,
     Text,
     View
@@ -30,7 +31,7 @@ class Projects extends Component {
             <ImageBackground
                 style={{ flex: 1, backgroundColor: '#000' }}
                 resizeMode="cover"
-                blurRadius={30}
+                blurRadius={1}
                 source={{
                     uri:
                         require('../assets/images/bg.jpg')
@@ -38,21 +39,26 @@ class Projects extends Component {
 
             >
 
-                <View style={styles.container}>
+                <ScrollView style={styles.container}>
                     <View style={styles.titleContainer}>
                         <Ionicons name="ios-arrow-back" size={32} color="white" onPress={() => navigate.goBack()} style={{ position: 'absolute', bottom: 10, left: 20, zIndex: 100000000 }} />
                         <Text style={styles.projectHeader}>PROJECTS</Text>
                     </View>
-                    <View style={{ marginTop: 130, flex: 1, alignSelf: 'center', padding: 20 }}>
 
-                        <Card />
-                        <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
 
 
 
-                    </View>
 
-                </View>
+                </ScrollView>
+
             </ImageBackground>
         );
     }

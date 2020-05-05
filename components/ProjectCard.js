@@ -37,7 +37,7 @@ const componentName = (props) => (
             <Text style={styles.title}>DYUSKSHA 20</Text>
             <Text style={styles.details} numberOfLines={4} ellipsizeMode="clip">Dyuksha 20 is a remarkable vision propelled by an incredible reason and brought about by a strong spark which makes one's contemplations break bonds to sustain a place where nothing and literally nothing is unimaginable. The national level techno-administrative social symposium is an amalgamation of science and artistry. It is innovation and technology acting together, catalyzed by inventiveness, to make the panacea. The intention of Dyuksha 20 is to compose a definitive outlay of innovation, business, culture and flar.</Text>
 
-            <View style={{ flexDirection: 'row', padding: 5, justifyContent: 'space-between' }}>
+            <View style={{ flexDirection: 'row', padding: 10, justifyContent: 'space-between' }}>
                 <Entypo name="google-play" size={32} color="white" onPress={() => Linking.openURL('https://github.com/asishshaji/')} />
                 <Entypo name="github-with-circle" size={32} color="white" onPress={() => Linking.openURL('https://github.com/asishshaji/')} />
             </View>
@@ -58,20 +58,19 @@ const styles = StyleSheet.create({
     },
     title: {
         fontFamily: 'medium',
-        fontSize: 26,
+        fontSize: 30,
         color: 'white',
-        textAlign: 'center',
-        padding: 5
+        padding: 5, marginBottom: 10,
+        alignSelf: 'flex-start'
     },
     titleContainer: {
-        justifyContent: 'center', alignItems: 'center', flex: 2, padding: 10,minWidth:100
+        justifyContent: 'center', alignItems: 'center', flex: 2, padding: 10, minWidth: 100
     },
     projectThumb: { height: 250, width: 200, left: 25, right: 25, borderRadius: 20, top: -25, bottom: -25 }
     ,
     imageBG: {
-        height: 200, width: 700,
         backgroundColor: '#000',
-        borderRadius: 20, position: 'relative', margin: 50, flexDirection: 'row',marginTop:20
+        borderRadius: 20, position: 'relative', margin: 50, flexDirection: 'row', marginTop: 20
     },
     details: {
         fontFamily: 'medium',

@@ -38,7 +38,7 @@ class Home extends Component {
                 <ImageBackground
                     style={{ flex: 1, backgroundColor: '#000' }}
                     resizeMode="cover"
-                    blurRadius={30}
+                    blurRadius={1}
                     source={{
                         uri:
                             require('../assets/images/bg.jpg')
