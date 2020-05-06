@@ -1,19 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "74581414d229643de252",
-    "url": "/asishshajithomas/static/js/app.96d2b14b.chunk.js"
+    "revision": "43ee720057a3e8c0f139",
+    "url": "/asishshajithomas/static/js/app.a552b8ee.chunk.js"
   },
   {
     "revision": "8cb80277cd833c609431",
     "url": "/asishshajithomas/static/js/runtime~app.0d7efcf8.js"
   },
   {
-    "revision": "5a738107c8d1aca62e36",
-    "url": "/asishshajithomas/static/js/2.d497b597.chunk.js"
-  },
-  {
-    "revision": "c0e838a8187c703f3bd302a98e30cf35",
-    "url": "/asishshajithomas/static/media/bg.c0e838a8.jpg"
+    "revision": "527659bd376d6a35aaa2",
+    "url": "/asishshajithomas/static/js/2.6e716f85.chunk.js"
   },
   {
     "revision": "9c51beb79b8ab173abd924ce39178f0b",
@@ -22,6 +18,10 @@ self.__precacheManifest = [
   {
     "revision": "b2e0fc821c6886fb3940f85a3320003e",
     "url": "/asishshajithomas/./fonts/Ionicons.ttf"
+  },
+  {
+    "revision": "5a293a273bee8d740a045d9922b9a9ae",
+    "url": "/asishshajithomas/./fonts/MaterialCommunityIcons.ttf"
   },
   {
     "revision": "744ce60078c17d86006dd0edabcd59a7",
@@ -64,10 +64,6 @@ self.__precacheManifest = [
     "url": "/asishshajithomas/./fonts/Foundation.ttf"
   },
   {
-    "revision": "5a293a273bee8d740a045d9922b9a9ae",
-    "url": "/asishshajithomas/./fonts/MaterialCommunityIcons.ttf"
-  },
-  {
     "revision": "a37b0c01c0baf1888ca812cc0508f6e2",
     "url": "/asishshajithomas/./fonts/MaterialIcons.ttf"
   },
@@ -96,7 +92,7 @@ self.__precacheManifest = [
     "url": "/asishshajithomas/favicon.ico"
   },
   {
-    "revision": "4095ced0d21900c53718ad371072e41f",
+    "revision": "a2116e227db21670882b8ac88f2ed3c4",
     "url": "/asishshajithomas/index.html"
   },
   {

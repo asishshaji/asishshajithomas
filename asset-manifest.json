@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/asishshajithomas/static/js/app.96d2b14b.chunk.js",
-    "app.js.map": "/asishshajithomas/static/js/app.96d2b14b.chunk.js.map",
+    "app.js": "/asishshajithomas/static/js/app.a552b8ee.chunk.js",
+    "app.js.map": "/asishshajithomas/static/js/app.a552b8ee.chunk.js.map",
     "runtime~app.js": "/asishshajithomas/static/js/runtime~app.0d7efcf8.js",
     "runtime~app.js.map": "/asishshajithomas/static/js/runtime~app.0d7efcf8.js.map",
-    "static/js/2.d497b597.chunk.js": "/asishshajithomas/static/js/2.d497b597.chunk.js",
-    "static/js/2.d497b597.chunk.js.map": "/asishshajithomas/static/js/2.d497b597.chunk.js.map",
+    "static/js/2.6e716f85.chunk.js": "/asishshajithomas/static/js/2.6e716f85.chunk.js",
+    "static/js/2.6e716f85.chunk.js.map": "/asishshajithomas/static/js/2.6e716f85.chunk.js.map",
     "fonts/AntDesign.ttf": "/asishshajithomas/./fonts/AntDesign.ttf",
     "fonts/Entypo.ttf": "/asishshajithomas/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/asishshajithomas/./fonts/Feather.ttf",
@@ -26,12 +26,11 @@
     "index.html": "/asishshajithomas/index.html",
     "manifest.json": "/asishshajithomas/manifest.json",
     "serve.json": "/asishshajithomas/serve.json",
-    "static/media/bg.jpg": "/asishshajithomas/static/media/bg.c0e838a8.jpg",
     "static/media/profile.jpg": "/asishshajithomas/static/media/profile.991dc723.jpg"
   },
   "entrypoints": [
     "static/js/runtime~app.0d7efcf8.js",
-    "static/js/2.d497b597.chunk.js",
-    "static/js/app.96d2b14b.chunk.js"
+    "static/js/2.6e716f85.chunk.js",
+    "static/js/app.a552b8ee.chunk.js"
   ]
 }
